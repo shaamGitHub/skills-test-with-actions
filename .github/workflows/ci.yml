@@ -27,6 +27,6 @@ jobs:
 
      # This step was added by ET as asked in the Excercise
       - name: Run markdown lint
-      run: |
+      run:
         npm install remark-cli remark-preset-lint-consistent
         npx remark . --use remark-preset-lint-consistent --frail
